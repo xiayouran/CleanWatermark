@@ -1,6 +1,10 @@
 # CleanWatermark
 像素级去除LOGO水印
 
+## Log
+- 2023/06/30
+  支持多进程，处理速度提升超59%🚀
+
 ## Usage
 `Step1:`查看水印的颜色：[http://www.jiniannet.com/page/allcolor](http://www.jiniannet.com/page/allcolor)
 
