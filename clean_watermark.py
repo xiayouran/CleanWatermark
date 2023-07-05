@@ -60,7 +60,7 @@ if __name__ == '__main__':
     cpu_num = mp.cpu_count()
     img_blocks = CleanWater.split_img(img_data)
 
-    pool = mp.Pool(processes=cpu_num // 2)
+    pool = mp.Pool(processes=cpu_num)
     img_blocks = pool.map(CleanWater.clean_water, img_blocks)
     img_data_clean = CleanWater.merge_img(img_blocks)
 
